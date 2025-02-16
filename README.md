@@ -4,7 +4,8 @@ This project is a single-page CV (Curriculum Vitae) designed to showcase your sk
 
 ## Live Demo
 
-You can view the live demo of the project [here](https://roadmap.sh/projects/single-page-cv).
+You can view the demo image of the project [here](https://roadmap.sh/projects/single-page-cv).
+You can view the live demo of the project [here](https://pr454d-p.github.io/single-page-cv/).
 
 ## Features
 
