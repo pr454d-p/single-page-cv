@@ -1,27 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1" >
         <meta name="descripiton" content="Your Name's CV">
         <meta name="keywords" content="CV, Resume, Frontend Developer">
         <meta name="author" content="Your Name">
+        <meta property="og:title" content="Your Name">
+        <meta property="og:description" content="Your Name's CV">
+        <meta property="og:image" content="https://i.ibb.co/cctJM4gT/0a90961a-187c-4f1a-90c2-c98278eeea11.png">
+        <meta property="og:image:alt" content="Your Name's CV logo">
         <title>Your Name</title>   
         <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-        <link rel="icon" href="https://i.ibb.co/cctJM4gT/0a90961a-187c-4f1a-90c2-c98278eeea11.png" type="image/x-png">
+        <link rel="icon" href="https://i.ibb.co/cctJM4gT/0a90961a-187c-4f1a-90c2-c98278eeea11.png" type="image/png">
         <style>
             body {
                 border: 2px solid black;
                 padding: 7%;
-                font-family:"Nunito";
+                font-family:"Nunito", sans-serif;
                 font-size: 1.2em;
             }
             address{
                 font-style: normal;
             }
+
             header {
                 border-top: 2px solid black;
                 width: 75%
+            }
+            a{
+                text-decoration: none;
+                color: black;
             }
             h3 {
                 color: rgb(62, 165, 62);
@@ -40,17 +49,15 @@
     <body>
         <header>
             <h1>Your Name</h1>
-        </header>
-        <main>
-            <section>
-                <h3>Junior Frontend Developer</h3>
+            <h3>Junior Frontend Developer</h3>
                 <address>
                     123 Your Street<br>
                     Your City, ST 12345<br>
                     (123) 456-7890<br>
-                    no_reply@example.com
+                    <a href="mailto:no_reply@example.com">no_reply@example.com</a>
                 </address>
-            </section>
+        </header>
+        <main>
             <section>
                 <h3>Skills</h3>
                 <p>HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive Web Design,
@@ -64,22 +71,26 @@
             </section>
             <section>
                 <h3>Experience</h3>
-                <h4>Company Name, Location - Job Title</h4>
-                <p>Month 20xx to Month 20xx</p>
-                <ul>
-                    <li>List of achievements</li>
-                    <li>List of achievements</li>
-                    <li>List of achievements</li>
-                </ul>
-                <p>Skills: List of sklla used or gained at this company</p>          
-                <h4>Company Name, Location - Job Title</h4>
-                <p>Month 20XX to Month 20xx</p>
-                <ul>
-                    <li>List of achievements</li>
-                    <li>List of achievements</li>
-                    <li>List of achievements</li>
-                </ul>
-                <p>Skills: List of skills used or gained at this company</p>
+                <article>
+                    <h4>Company Name, Location - Job Title</h4>
+                    <p>Month 20xx to Month 20xx</p>
+                    <ul>
+                        <li>List of achievements</li>
+                        <li>List of achievements</li>
+                        <li>List of achievements</li>
+                    </ul>
+                    <p>Skills: List of skills used or gained at this company</p>
+                </article>
+                <article>
+                    <h4>Company Name, Location - Job Title</h4>
+                    <p>Month 20xx to Month 20xx</p>
+                    <ul>
+                        <li>List of achievements</li>
+                        <li>List of achievements</li>
+                        <li>List of achievements</li>
+                    </ul>
+                    <p>Skills: List of skills used or gained at this company</p>
+                </article>          
             </section>
         </main>
         <footer>
